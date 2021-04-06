@@ -1,7 +1,7 @@
 <?php
     $template = array(
-        'table open'=>'<table border="1 cellpadding="4" cellspacing="0">',
-        'table close'=>'</table>'
+        'table_open'=>'<table border="1" cellpadding="4" cellspacing="0">',
+        'table_close'=>'</table>'
     );
 
     $this->table->set_template($template);
